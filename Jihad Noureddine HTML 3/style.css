@@ -1,0 +1,138 @@
+header {
+    padding: 30px 40px;
+    height: 40vh;
+    color: white;
+    background-image: url(./img/header.png);
+    background-size: cover;
+    float: unset;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 14px;
+}
+
+body {
+    background-color: #212b2d;
+    color: white;
+}
+
+.site-wrapper {
+    padding: 30px 50px;
+}
+
+nav {
+    height: 40px;
+    color: white;
+    background-color: #333d3f;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.side-pannel {
+    float: left;
+    width: 30%;
+}
+
+.side-pannel a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-section {
+    padding: 0 20px;
+}
+
+.subscription {
+    padding: 0 20px;
+    width: calc(50% - 40px);
+    float: left;
+}
+
+.main-content h2 {
+    margin-top: 0;
+}
+
+.other-services {
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0 20px;
+    float: right;
+    width: calc(50% - 41px);
+}
+
+.bottom-section {
+    margin-top: 50px;
+}
+
+.bottom-section h3 {
+    margin-top: 0;
+}
+
+.main-content {
+    width: 70%;
+    float: right;
+}
+
+.read-more {
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #96aab0;
+}
+
+footer {
+    width: 100%;
+    margin-top: 50px;
+    clear: both;
+    display: inline-block;
+}
+
+footer form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer form label {
+    margin: 20px 0 10px 0;
+}
+
+.checkbox {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox input,
+.checkbox label {
+    margin: 0;
+}
+
+.checkbox input {
+    margin-left: 20px;
+}
+
+.checkbox input:submit {
+    background-color: tomato;
+}
